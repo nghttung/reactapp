@@ -2,6 +2,9 @@ Kill port:
 -  netstat -ano | findstr :3000
 -  taskkill /PID PIDhere /F
 
-E:\REACT\mongodbServer\bin\mongod.exe --dbpath E:\REACT\mongoDb
+-  E:\REACT\mongodbServer\bin\mongod.exe --dbpath E:\REACT\mongoDb
+
+Connect Client, add line 
+-  app.use(express.static(path.join(__dirname, '/client/build')))
 
 ^[a-zA-Z_ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂưăạảấầẩẫậắằẳẵặẹẻẽềềểỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\d]+$
