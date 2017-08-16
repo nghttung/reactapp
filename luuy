@@ -1,0 +1,7 @@
+Kill port:
+-  netstat -ano | findstr :3000
+-  taskkill /PID PIDhere /F
+
+E:\REACT\mongodbServer\bin\mongod.exe --dbpath E:\REACT\mongoDb
+
+^[a-zA-Z_ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂưăạảấầẩẫậắằẳẵặẹẻẽềềểỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ\s\d]+$
